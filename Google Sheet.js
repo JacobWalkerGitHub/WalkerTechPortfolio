@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwwvEfLnHfORYGk0wvHAGRGxZfpcYPAm6br7mT0Cxhtke7KBCW5f31nheI9YEchhcv6/exec';
+const scriptURL = 'GOOGLE_SHEETS_APP_SCRIPT_URL';
 
 const form = document.getElementById('contact-form');
 const submissionDateField = document.getElementById('submission-date');
