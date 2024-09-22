@@ -1,0 +1,204 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-stop:always;
+}
+.section {
+    padding-bottom: 15vh; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #1f1e1f;
+}
+
+@media (min-device-width: 481px) {
+    /* ***** Contact Form ***** */
+
+    .contact-wrapper {
+        background: #1f1e1f;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+    .contact-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 50%;
+        max-width: 600px;
+        background: #white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .contact-container h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #eceeee;
+    }
+    .contact-container label {
+        margin-bottom: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .contact-container input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background: #fff;
+        color: #333;
+        margin-top: 15px;
+        transition: border-color 0.3s;
+    }
+
+    .contact-container input::placeholder {
+        color: #888;
+    }
+
+    .contact-container input:focus {
+        border-color: #046380;
+        outline: none;
+    }
+
+    .contact-container textarea {
+        width: 100%;
+        height: 20vh;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background: #fff;
+        color: #333;
+        margin-top: 15px;
+        transition: border-color 0.3s;
+        resize: none;
+    }
+    .contact-container textarea:focus {
+        border-color: #007BFF;
+        outline: none;
+    }
+
+    .contact-container button {
+        width: 25%;
+        height: 5vh;
+        background: #046380;
+        border-radius: 15px;
+        font-family: Trebuchet, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        color: #eceeee;
+        border: #1f1e1f;
+        cursor: pointer;
+        margin: 10px 0;
+        justify-content: center;
+    }
+    /* .contact-container button:hover {
+        border-color: #0689B1;
+        borde;
+    } */
+}
+
+@media (max-device-width: 480px) {
+    /* ***** Contact Form ***** */
+    .contact-wrapper {
+        background: #1f1e1f;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+    .contact-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 600px;
+        background: #2b2b2b;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .contact-container h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #eceeee;
+    }
+    .contact-container label {
+        margin-bottom: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .contact-container input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background: #fff;
+        color: #333;
+        margin-top: 15px;
+        transition: border-color 0.3s;
+    }
+
+    .contact-container input::placeholder {
+        color: #888;
+    }
+
+    .contact-container input:focus {
+        border-color: #046380;
+        outline: none;
+    }
+
+    .contact-container textarea {
+        width: 100%;
+        height: 10vh;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background: #fff;
+        color: #333;
+        margin-top: 15px;
+        transition: border-color 0.3s;
+        resize: none;
+    }
+    .contact-container textarea:focus {
+        border-color: #007BFF;
+        outline: none;
+    }
+    .contact-container textarea::placeholder {
+        color: #888;
+    }
+    .contact-container button {
+        width: 25%;
+        height: 5vh;
+        background: #046380;
+        border-radius: 15px;
+        font-family: Trebuchet, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        color: #eceeee;
+        border: #1f1e1f;
+        cursor: pointer;
+        margin: 10px 0;
+        justify-content: center;
+    }
+}
